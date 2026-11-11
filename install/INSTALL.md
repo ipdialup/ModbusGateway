@@ -30,6 +30,8 @@ The exes are self-contained, so .NET does not need to be installed. They need 64
    .\install.ps1
    ```
 
+The exes aren't code-signed, so Windows SmartScreen may warn you the first time they run. Click **More info**, then **Run anyway**.
+
 The installer:
 - Copies the files to `C:\Program Files\ModbusGateway`.
 - Creates the `ModbusGateway` service. It starts automatically and restarts if it fails.

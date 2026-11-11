@@ -87,3 +87,7 @@ To publish a GitHub release:
 ```powershell
 gh release create v1.0.0 dist\ModbusGateway-v1.0.0-win-x64.zip --title "Modbus Gateway v1.0.0" --notes-file install\INSTALL.md
 ```
+
+## Licence
+
+[MIT](LICENSE). Provided as is, with no warranty. The gateway passes Modbus writes straight through to your device, so check what your client writes before you rely on it.
