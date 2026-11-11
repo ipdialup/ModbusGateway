@@ -19,6 +19,14 @@ Home Assistant (solax_modbus) --TCP 502--> ModbusGatewayService --COM4 9600 8N1-
 | `src/ModbusGateway.Tray` | Tray icon. Green: OK. Amber: errors in the last minute. Red: port closed. Grey: service not running. Double-click it for port status, connected clients, data flowed (TCP and serial bytes, plus rates), counters, latency, a 2-minute graph, function codes and recent events. |
 | `tests/ModbusGateway.Tests` | Engine tests against a fake RTU slave. |
 
+## Tray app
+
+The status window, double-clicked from the tray icon, on a live gateway polled by Home Assistant:
+
+![Status window: Overview tab](docs/screenshots/status-overview.png)
+
+![Status window: Function codes tab](docs/screenshots/status-function-codes.png)
+
 ## Behaviour
 
 - **Replies are matched to requests.** The reply length comes from the function code, and the CRC is checked. Noise bytes before a reply are skipped.
