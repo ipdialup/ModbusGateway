@@ -88,6 +88,15 @@ To publish a GitHub release:
 gh release create v1.0.0 dist\ModbusGateway-v1.0.0-win-x64.zip --title "Modbus Gateway v1.0.0" --notes-file install\INSTALL.md
 ```
 
+## Support
+
+ModbusGateway is free and always will be. If it saves you time or money, you can buy me a coffee
+towards keeping it going:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/andyr82756)
+
+Bug reports and reports from other hardware help just as much.
+
 ## Licence
 
 [MIT](LICENSE). Provided as is, with no warranty. The gateway passes Modbus writes straight through to your device, so check what your client writes before you rely on it.
